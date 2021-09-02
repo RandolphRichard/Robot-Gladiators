@@ -1,11 +1,4 @@
-var playerName = window.prompt("What is your robot's name?");
-var playerHealth = 100;
-var playerAttack = 10;
-var playerMoney = 10;
-
-var enemyNames = ['Roborto', 'Amy Android', 'Robo Trumble'];
-var enemyHealth = 50;
-var enemyAttack = 12;
+/* GAME FUNCTIONS */
 
 // function to generate a random numeric value
 var randomNumber = function(min, max) {
